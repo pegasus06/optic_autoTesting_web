@@ -1,0 +1,441 @@
+INFO	2024-09-24 10:05:07,469	[conftest.py:27]	None
+INFO	2024-09-24 10:05:35,864	[conftest.py:27]	C:\Users\86180\Desktop\周睿\工作相关\autotesting\OpticTImesShopPlat\driver\chromedriver.exe
+INFO	2024-09-24 10:10:29,444	[common.py:13]	-------module start
+INFO	2024-09-24 10:10:29,448	[conftest.py:82]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 10:10:29,448	[testLogin.py:29]	username:70001
+INFO	2024-09-24 10:10:29,449	[testLogin.py:30]	password: 7001@mcx
+INFO	2024-09-24 10:10:29,449	[testLogin.py:31]	expect text: 失败
+INFO	2024-09-24 10:10:41,811	[common.py:21]	-------case end
+INFO	2024-09-24 10:10:41,813	[common.py:17]	-------module end
+INFO	2024-09-24 10:14:07,425	[common.py:13]	-------module start
+INFO	2024-09-24 10:14:07,432	[conftest.py:82]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 10:14:07,433	[testLogin.py:29]	username:70001
+INFO	2024-09-24 10:14:07,433	[testLogin.py:30]	password: 7001@mcx
+INFO	2024-09-24 10:14:07,433	[testLogin.py:31]	expect text: 失败
+INFO	2024-09-24 10:14:40,398	[common.py:21]	-------case end
+INFO	2024-09-24 10:14:40,407	[conftest.py:82]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 10:14:40,408	[testLogin.py:29]	username:70002
+INFO	2024-09-24 10:14:40,408	[testLogin.py:30]	password: None
+INFO	2024-09-24 10:14:40,408	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 10:14:52,765	[common.py:21]	-------case end
+INFO	2024-09-24 10:14:52,766	[common.py:17]	-------module end
+INFO	2024-09-24 10:17:18,969	[common.py:13]	-------module start
+INFO	2024-09-24 10:17:18,973	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 10:17:18,974	[testLogin.py:29]	username:70001
+INFO	2024-09-24 10:17:18,974	[testLogin.py:30]	password: 7001@mcx
+INFO	2024-09-24 10:17:18,974	[testLogin.py:31]	expect text: 失败
+INFO	2024-09-24 10:17:24,630	[common.py:21]	-------case end
+INFO	2024-09-24 10:17:24,631	[common.py:17]	-------module end
+INFO	2024-09-24 10:18:49,410	[common.py:13]	-------module start
+INFO	2024-09-24 10:18:49,414	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 10:18:49,414	[testLogin.py:29]	username:70001
+INFO	2024-09-24 10:18:49,415	[testLogin.py:30]	password: 7001@mcx
+INFO	2024-09-24 10:18:49,415	[testLogin.py:31]	expect text: 失败
+INFO	2024-09-24 10:19:22,446	[common.py:21]	-------case end
+INFO	2024-09-24 10:19:22,454	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 10:19:22,456	[testLogin.py:29]	username:70002
+INFO	2024-09-24 10:19:22,456	[testLogin.py:30]	password: None
+INFO	2024-09-24 10:19:22,456	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 10:19:54,807	[common.py:21]	-------case end
+INFO	2024-09-24 10:19:54,813	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case2]
+INFO	2024-09-24 10:19:54,813	[testLogin.py:29]	username:70003
+INFO	2024-09-24 10:19:54,814	[testLogin.py:30]	password: 70003
+INFO	2024-09-24 10:19:54,814	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 10:19:58,804	[common.py:21]	-------case end
+INFO	2024-09-24 10:19:58,806	[common.py:17]	-------module end
+WARNING	2024-09-24 10:19:59,146	[connectionpool.py:824]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))': /session/a3438e743d33234a429c0ff88d80c6ad
+WARNING	2024-09-24 10:20:01,189	[connectionpool.py:824]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017AF86D1B20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/a3438e743d33234a429c0ff88d80c6ad
+WARNING	2024-09-24 10:20:03,214	[connectionpool.py:824]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017AF86D0BC0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/a3438e743d33234a429c0ff88d80c6ad
+INFO	2024-09-24 10:20:27,704	[common.py:13]	-------module start
+INFO	2024-09-24 10:20:27,709	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 10:20:27,709	[testLogin.py:29]	username:70001
+INFO	2024-09-24 10:20:27,710	[testLogin.py:30]	password: 7001@mcx
+INFO	2024-09-24 10:20:27,710	[testLogin.py:31]	expect text: 失败
+INFO	2024-09-24 10:21:00,741	[common.py:21]	-------case end
+INFO	2024-09-24 10:21:00,753	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 10:21:00,753	[testLogin.py:29]	username:70002
+INFO	2024-09-24 10:21:00,753	[testLogin.py:30]	password: None
+INFO	2024-09-24 10:21:00,753	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 10:21:33,528	[common.py:21]	-------case end
+INFO	2024-09-24 10:21:33,538	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case2]
+INFO	2024-09-24 10:21:33,539	[testLogin.py:29]	username:70003
+INFO	2024-09-24 10:21:33,539	[testLogin.py:30]	password: 70003
+INFO	2024-09-24 10:21:33,539	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 10:21:48,364	[common.py:21]	-------case end
+INFO	2024-09-24 10:21:48,365	[common.py:17]	-------module end
+WARNING	2024-09-24 10:21:48,690	[connectionpool.py:824]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))': /session/9f08f013df2fb81557ec648bd23c128d
+WARNING	2024-09-24 10:21:50,723	[connectionpool.py:824]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D410D12B70>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/9f08f013df2fb81557ec648bd23c128d
+WARNING	2024-09-24 10:21:52,748	[connectionpool.py:824]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D410D12D50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/9f08f013df2fb81557ec648bd23c128d
+INFO	2024-09-24 10:22:01,413	[common.py:13]	-------module start
+INFO	2024-09-24 10:22:01,417	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 10:22:01,417	[testLogin.py:29]	username:admin
+INFO	2024-09-24 10:22:01,417	[testLogin.py:30]	password: 111111
+INFO	2024-09-24 10:22:01,418	[testLogin.py:31]	expect text: 失败
+INFO	2024-09-24 10:22:12,658	[common.py:21]	-------case end
+INFO	2024-09-24 10:22:12,659	[common.py:17]	-------module end
+INFO	2024-09-24 10:27:56,183	[common.py:13]	-------module start
+INFO	2024-09-24 10:27:56,186	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 10:27:56,186	[testLogin.py:29]	username:admin
+INFO	2024-09-24 10:27:56,186	[testLogin.py:30]	password: 111111
+INFO	2024-09-24 10:27:56,186	[testLogin.py:31]	expect text: 失败
+INFO	2024-09-24 10:27:58,920	[common.py:21]	-------case end
+INFO	2024-09-24 10:27:58,929	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 10:27:58,929	[testLogin.py:29]	username:70002
+INFO	2024-09-24 10:27:58,930	[testLogin.py:30]	password: None
+INFO	2024-09-24 10:27:58,930	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 10:28:01,186	[common.py:21]	-------case end
+INFO	2024-09-24 10:28:01,193	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case2]
+INFO	2024-09-24 10:28:01,193	[testLogin.py:29]	username:70003
+INFO	2024-09-24 10:28:01,193	[testLogin.py:30]	password: 70003
+INFO	2024-09-24 10:28:01,194	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 10:28:03,487	[common.py:21]	-------case end
+INFO	2024-09-24 10:28:03,488	[common.py:17]	-------module end
+INFO	2024-09-24 10:32:43,568	[common.py:13]	-------module start
+INFO	2024-09-24 10:32:43,591	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 10:32:43,592	[testLogin.py:29]	username:admin
+INFO	2024-09-24 10:32:43,593	[testLogin.py:30]	password: 111111
+INFO	2024-09-24 10:32:43,593	[testLogin.py:31]	expect text: 失败
+INFO	2024-09-24 10:32:46,785	[common.py:21]	-------case end
+INFO	2024-09-24 10:32:46,806	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 10:32:46,806	[testLogin.py:29]	username:70002
+INFO	2024-09-24 10:32:46,806	[testLogin.py:30]	password: None
+INFO	2024-09-24 10:32:46,807	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 10:32:49,235	[common.py:21]	-------case end
+INFO	2024-09-24 10:32:49,256	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case2]
+INFO	2024-09-24 10:32:49,256	[testLogin.py:29]	username:70003
+INFO	2024-09-24 10:32:49,257	[testLogin.py:30]	password: 70003
+INFO	2024-09-24 10:32:49,257	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 10:32:51,696	[common.py:21]	-------case end
+INFO	2024-09-24 10:32:51,699	[common.py:17]	-------module end
+INFO	2024-09-24 10:33:30,877	[common.py:13]	-------module start
+INFO	2024-09-24 10:33:30,886	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 10:33:30,887	[testLogin.py:29]	username:admin
+INFO	2024-09-24 10:33:30,887	[testLogin.py:30]	password: 111111
+INFO	2024-09-24 10:33:30,887	[testLogin.py:31]	expect text: 失败
+INFO	2024-09-24 10:33:33,926	[common.py:21]	-------case end
+INFO	2024-09-24 10:33:33,946	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 10:33:33,947	[testLogin.py:29]	username:70002
+INFO	2024-09-24 10:33:33,947	[testLogin.py:30]	password: None
+INFO	2024-09-24 10:33:33,947	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 10:33:36,289	[common.py:21]	-------case end
+INFO	2024-09-24 10:33:36,305	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case2]
+INFO	2024-09-24 10:33:36,306	[testLogin.py:29]	username:70003
+INFO	2024-09-24 10:33:36,306	[testLogin.py:30]	password: 70003
+INFO	2024-09-24 10:33:36,306	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 10:33:38,626	[common.py:21]	-------case end
+INFO	2024-09-24 10:33:38,629	[common.py:17]	-------module end
+INFO	2024-09-24 10:35:48,525	[common.py:13]	-------module start
+INFO	2024-09-24 10:35:48,538	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 10:35:48,539	[testLogin.py:29]	username:admin
+INFO	2024-09-24 10:35:48,540	[testLogin.py:30]	password: 111111
+INFO	2024-09-24 10:35:48,540	[testLogin.py:31]	expect text: 失败
+INFO	2024-09-24 10:59:08,766	[common.py:21]	-------case end
+INFO	2024-09-24 10:59:08,769	[common.py:17]	-------module end
+WARNING	2024-09-24 10:59:10,826	[connectionpool.py:824]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B3B8058F20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/04fb39dfbcc474b3243e1e793065bb58
+WARNING	2024-09-24 10:59:12,880	[connectionpool.py:824]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B3B8A4E870>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/04fb39dfbcc474b3243e1e793065bb58
+WARNING	2024-09-24 10:59:14,924	[connectionpool.py:824]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B3B8A4F080>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/04fb39dfbcc474b3243e1e793065bb58
+INFO	2024-09-24 10:59:35,428	[common.py:13]	-------module start
+INFO	2024-09-24 10:59:35,461	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 10:59:35,463	[testLogin.py:29]	username:admin
+INFO	2024-09-24 10:59:35,463	[testLogin.py:30]	password: 111111
+INFO	2024-09-24 10:59:35,464	[testLogin.py:31]	expect text: 失败
+INFO	2024-09-24 11:05:20,621	[common.py:21]	-------case end
+INFO	2024-09-24 11:05:20,624	[common.py:17]	-------module end
+WARNING	2024-09-24 11:05:22,681	[connectionpool.py:824]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017C1B2621B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/650f54866599eebd6911e76d830456f6
+WARNING	2024-09-24 11:05:24,732	[connectionpool.py:824]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017C1CCA4680>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/650f54866599eebd6911e76d830456f6
+INFO	2024-09-24 11:05:34,069	[common.py:13]	-------module start
+INFO	2024-09-24 11:05:34,073	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 11:05:34,074	[testLogin.py:29]	username:admin
+INFO	2024-09-24 11:05:34,074	[testLogin.py:30]	password: 111111
+INFO	2024-09-24 11:05:34,074	[testLogin.py:31]	expect text: 失败
+INFO	2024-09-24 11:06:07,066	[common.py:21]	-------case end
+INFO	2024-09-24 11:06:07,074	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 11:06:07,074	[testLogin.py:29]	username:70002
+INFO	2024-09-24 11:06:07,074	[testLogin.py:30]	password: None
+INFO	2024-09-24 11:06:07,074	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 11:06:36,863	[common.py:21]	-------case end
+INFO	2024-09-24 11:06:36,865	[common.py:17]	-------module end
+INFO	2024-09-24 11:07:14,539	[common.py:13]	-------module start
+INFO	2024-09-24 11:07:14,550	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 11:07:14,551	[testLogin.py:29]	username:admin
+INFO	2024-09-24 11:07:14,551	[testLogin.py:30]	password: 111111
+INFO	2024-09-24 11:07:14,551	[testLogin.py:31]	expect text: 失败
+INFO	2024-09-24 11:10:37,606	[common.py:21]	-------case end
+INFO	2024-09-24 11:10:37,609	[common.py:17]	-------module end
+INFO	2024-09-24 11:10:47,194	[common.py:13]	-------module start
+INFO	2024-09-24 11:10:47,198	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 11:10:47,199	[testLogin.py:29]	username:admin
+INFO	2024-09-24 11:10:47,199	[testLogin.py:30]	password: 111111
+INFO	2024-09-24 11:10:47,199	[testLogin.py:31]	expect text: 失败
+INFO	2024-09-24 11:10:57,376	[common.py:21]	-------case end
+INFO	2024-09-24 11:10:57,378	[common.py:17]	-------module end
+INFO	2024-09-24 11:20:41,932	[common.py:13]	-------module start
+INFO	2024-09-24 11:20:41,937	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 11:20:41,937	[testLogin.py:29]	username:admin
+INFO	2024-09-24 11:20:41,937	[testLogin.py:30]	password: 111111
+INFO	2024-09-24 11:20:41,938	[testLogin.py:31]	expect text: 失败
+INFO	2024-09-24 11:20:44,052	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="a116bdc94044026b25b16384a8819b32", element="f.703FFB324B737824E5BE4ED00DCE0838.d.9B64016285D56C3D9B619EC2B2A45CA1.e.4")>输入文本:admin
+INFO	2024-09-24 11:20:50,184	[common.py:21]	-------case end
+INFO	2024-09-24 11:20:50,186	[common.py:17]	-------module end
+INFO	2024-09-24 11:22:34,637	[common.py:13]	-------module start
+INFO	2024-09-24 11:22:34,641	[conftest.py:83]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 11:22:34,642	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 11:22:34,642	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 11:22:34,642	[testLogin.py:31]	expect text: 失败
+INFO	2024-09-24 11:22:36,802	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="4a0f66e1b2a291de78641d70cb25d853", element="f.0B4C802128D9ECFEE6CD1EBB0D66377F.d.C0932C785C140C407E7AEC9F074FB8FF.e.4")>输入文本:peagasus07@163.com
+INFO	2024-09-24 11:22:37,910	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="4a0f66e1b2a291de78641d70cb25d853", element="f.0B4C802128D9ECFEE6CD1EBB0D66377F.d.C0932C785C140C407E7AEC9F074FB8FF.e.6")>输入文本:88483509zr
+INFO	2024-09-24 11:22:42,973	[page_base.py:38]	点击按钮：('css selector', '.el-button:nth-child(3)')
+INFO	2024-09-24 11:22:50,149	[common.py:21]	-------case end
+INFO	2024-09-24 11:22:50,150	[common.py:17]	-------module end
+INFO	2024-09-24 14:23:04,286	[common.py:13]	-------module start
+INFO	2024-09-24 14:23:04,295	[conftest.py:84]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 14:23:04,295	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 14:23:04,296	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 14:23:04,296	[testLogin.py:31]	expect text: 失败
+INFO	2024-09-24 14:23:06,449	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="47078e6f408b243cda3da21244447676", element="f.80B0608611A82B922CA6C393ECBDCA4C.d.F20A285B0BB91FE2E494674F5F98278E.e.4")>输入文本:peagasus07@163.com
+INFO	2024-09-24 14:23:07,596	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="47078e6f408b243cda3da21244447676", element="f.80B0608611A82B922CA6C393ECBDCA4C.d.F20A285B0BB91FE2E494674F5F98278E.e.6")>输入文本:88483509zr
+INFO	2024-09-24 14:23:12,651	[page_base.py:38]	点击按钮：('css selector', '.el-button:nth-child(3)')
+INFO	2024-09-24 14:23:26,419	[common.py:21]	-------case end
+INFO	2024-09-24 14:23:26,422	[common.py:17]	-------module end
+INFO	2024-09-24 14:25:28,096	[common.py:13]	-------module start
+INFO	2024-09-24 14:25:28,102	[conftest.py:84]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 14:25:28,102	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 14:25:28,104	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 14:25:28,104	[testLogin.py:31]	expect text: http://192.168.10.196/navigation
+INFO	2024-09-24 14:25:30,262	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="0cfd288f59a9589addf2cca76c888602", element="f.700F641D5760F219DB68F68FBF7DF41F.d.36A4A1934C2867CADDE49763D2C46157.e.4")>输入文本:peagasus07@163.com
+INFO	2024-09-24 14:25:31,399	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="0cfd288f59a9589addf2cca76c888602", element="f.700F641D5760F219DB68F68FBF7DF41F.d.36A4A1934C2867CADDE49763D2C46157.e.6")>输入文本:88483509zr
+INFO	2024-09-24 14:25:36,528	[page_base.py:38]	点击按钮：('css selector', '.el-button:nth-child(3)')
+INFO	2024-09-24 14:26:08,991	[common.py:21]	-------case end
+INFO	2024-09-24 14:26:09,000	[conftest.py:84]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 14:26:09,000	[testLogin.py:29]	username:70002
+INFO	2024-09-24 14:26:09,000	[testLogin.py:30]	password: None
+INFO	2024-09-24 14:26:09,000	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 14:26:41,772	[common.py:21]	-------case end
+INFO	2024-09-24 14:26:41,783	[conftest.py:84]	case：testlogin/testLogin.py_TestLogin_test_login[login_case2]
+INFO	2024-09-24 14:26:41,783	[testLogin.py:29]	username:70003
+INFO	2024-09-24 14:26:41,784	[testLogin.py:30]	password: 70003
+INFO	2024-09-24 14:26:41,784	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 14:26:43,849	[common.py:21]	-------case end
+INFO	2024-09-24 14:26:43,851	[common.py:17]	-------module end
+INFO	2024-09-24 14:29:36,137	[common.py:13]	-------module start
+INFO	2024-09-24 14:29:36,143	[conftest.py:84]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 14:29:36,144	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 14:29:36,144	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 14:29:36,144	[testLogin.py:31]	expect text: http://192.168.10.196/navigation
+INFO	2024-09-24 14:29:38,288	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="294ec1d498791f68077a4447dd862a08", element="f.C5AACC58DE6D0D188E2F3B1B1FE65A2B.d.C7F5C9B07E57CECE64B6DA03C16590D2.e.4")>输入文本:peagasus07@163.com
+INFO	2024-09-24 14:29:39,440	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="294ec1d498791f68077a4447dd862a08", element="f.C5AACC58DE6D0D188E2F3B1B1FE65A2B.d.C7F5C9B07E57CECE64B6DA03C16590D2.e.6")>输入文本:88483509zr
+INFO	2024-09-24 14:29:44,514	[page_base.py:38]	点击按钮：('css selector', '.el-button:nth-child(3)')
+INFO	2024-09-24 14:29:46,661	[common.py:21]	-------case end
+INFO	2024-09-24 14:29:46,670	[conftest.py:84]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 14:29:46,670	[testLogin.py:29]	username:70002
+INFO	2024-09-24 14:29:46,670	[testLogin.py:30]	password: None
+INFO	2024-09-24 14:29:46,670	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 14:29:52,857	[common.py:21]	-------case end
+INFO	2024-09-24 14:29:52,859	[common.py:17]	-------module end
+INFO	2024-09-24 14:31:17,923	[common.py:13]	-------module start
+INFO	2024-09-24 14:31:17,929	[conftest.py:84]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 14:31:17,929	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 14:31:17,930	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 14:31:17,930	[testLogin.py:31]	expect text: http://192.168.10.196/navigation
+INFO	2024-09-24 14:31:20,069	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="7dd1276dd603b55d169cb0e6220626a0", element="f.19162EFA1B4C3C95B4C71B9351323B32.d.0475DEEAEEF1976835495FE925BC8A4D.e.17")>输入文本:peagasus07@163.com
+INFO	2024-09-24 14:31:21,190	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="7dd1276dd603b55d169cb0e6220626a0", element="f.19162EFA1B4C3C95B4C71B9351323B32.d.0475DEEAEEF1976835495FE925BC8A4D.e.19")>输入文本:88483509zr
+INFO	2024-09-24 14:31:26,248	[page_base.py:38]	点击按钮：('css selector', '.el-button:nth-child(3)')
+INFO	2024-09-24 14:31:27,257	[testLogin.py:36]	111111111111Optictimes-navigation
+INFO	2024-09-24 14:31:28,396	[common.py:21]	-------case end
+INFO	2024-09-24 14:31:28,404	[conftest.py:84]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 14:31:28,404	[testLogin.py:29]	username:70002
+INFO	2024-09-24 14:31:28,404	[testLogin.py:30]	password: None
+INFO	2024-09-24 14:31:28,405	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 14:32:03,861	[common.py:13]	-------module start
+INFO	2024-09-24 14:32:03,864	[conftest.py:84]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 14:32:03,865	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 14:32:03,865	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 14:32:03,865	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 14:32:06,012	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="d18edf568a39981f9f5b97058e922dd0", element="f.FA4EF0BF0C9B4D778C88D9F43DE014FB.d.31ED6BA9BB23B381AD8AFEDFC2F5E68D.e.4")>输入文本:peagasus07@163.com
+INFO	2024-09-24 14:32:07,152	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="d18edf568a39981f9f5b97058e922dd0", element="f.FA4EF0BF0C9B4D778C88D9F43DE014FB.d.31ED6BA9BB23B381AD8AFEDFC2F5E68D.e.6")>输入文本:88483509zr
+INFO	2024-09-24 14:32:12,239	[page_base.py:38]	点击按钮：('css selector', '.el-button:nth-child(3)')
+INFO	2024-09-24 14:32:13,261	[testLogin.py:36]	111111111111Optictimes-navigation
+INFO	2024-09-24 14:32:13,269	[common.py:21]	-------case end
+INFO	2024-09-24 14:32:13,277	[conftest.py:84]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 14:32:13,278	[testLogin.py:29]	username:70002
+INFO	2024-09-24 14:32:13,278	[testLogin.py:30]	password: None
+INFO	2024-09-24 14:32:13,279	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 14:32:46,532	[common.py:21]	-------case end
+INFO	2024-09-24 14:32:46,544	[conftest.py:84]	case：testlogin/testLogin.py_TestLogin_test_login[login_case2]
+INFO	2024-09-24 14:32:46,545	[testLogin.py:29]	username:70003
+INFO	2024-09-24 14:32:46,545	[testLogin.py:30]	password: 70003
+INFO	2024-09-24 14:32:46,545	[testLogin.py:31]	expect text: 密码
+INFO	2024-09-24 14:33:19,521	[common.py:21]	-------case end
+INFO	2024-09-24 14:33:19,522	[common.py:17]	-------module end
+INFO	2024-09-24 14:39:36,379	[common.py:13]	-------module start
+INFO	2024-09-24 14:39:36,385	[conftest.py:85]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 14:39:36,385	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 14:39:36,385	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 14:39:36,385	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 14:39:38,553	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="fa096ec87c852af041b5ce57a2a15111", element="f.305F17FC17A32BF509ED2463F433DE00.d.F2CC41D1F2F997E4CF53AD69BB53F167.e.4")>输入文本:peagasus07@163.com
+INFO	2024-09-24 14:39:39,651	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="fa096ec87c852af041b5ce57a2a15111", element="f.305F17FC17A32BF509ED2463F433DE00.d.F2CC41D1F2F997E4CF53AD69BB53F167.e.6")>输入文本:88483509zr
+INFO	2024-09-24 14:39:44,716	[page_base.py:38]	点击按钮：('css selector', '.el-button:nth-child(3)')
+INFO	2024-09-24 14:39:45,727	[testLogin.py:36]	111111111111Optictimes-navigation
+INFO	2024-09-24 14:39:45,740	[common.py:21]	-------case end
+INFO	2024-09-24 14:39:45,756	[conftest.py:85]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 14:39:45,756	[testLogin.py:29]	username:1010656935@qq.com
+INFO	2024-09-24 14:39:45,757	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 14:39:45,757	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 14:40:18,839	[common.py:21]	-------case end
+INFO	2024-09-24 14:40:18,840	[common.py:17]	-------module end
+INFO	2024-09-24 14:45:19,339	[common.py:13]	-------module start
+INFO	2024-09-24 14:45:19,345	[conftest.py:84]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 14:45:19,346	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 14:45:19,346	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 14:45:19,346	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 14:45:21,450	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="f2f617b2bc21aff8ebb3838509284b7a", element="f.AD46524CDDDB40407CDBBF950DE26A56.d.D9441667D30A3858189CBAD17563500E.e.4")>输入文本:peagasus07@163.com
+INFO	2024-09-24 14:45:22,526	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="f2f617b2bc21aff8ebb3838509284b7a", element="f.AD46524CDDDB40407CDBBF950DE26A56.d.D9441667D30A3858189CBAD17563500E.e.6")>输入文本:88483509zr
+INFO	2024-09-24 14:45:27,572	[page_base.py:38]	点击按钮：('css selector', '.el-button:nth-child(3)')
+INFO	2024-09-24 14:45:28,581	[testLogin.py:36]	111111111111Optictimes-navigation
+INFO	2024-09-24 14:45:28,588	[common.py:21]	-------case end
+INFO	2024-09-24 14:45:28,596	[conftest.py:84]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 14:45:28,596	[testLogin.py:29]	username:1010656935@qq.com
+INFO	2024-09-24 14:45:28,596	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 14:45:28,596	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 14:46:01,865	[common.py:21]	-------case end
+INFO	2024-09-24 14:46:01,866	[common.py:17]	-------module end
+INFO	2024-09-24 14:47:17,276	[common.py:13]	-------module start
+INFO	2024-09-24 14:47:17,280	[conftest.py:84]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 14:47:17,280	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 14:47:17,280	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 14:47:17,280	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 14:47:50,488	[common.py:21]	-------case end
+INFO	2024-09-24 14:47:50,496	[conftest.py:84]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 14:47:50,496	[testLogin.py:29]	username:1010656935@qq.com
+INFO	2024-09-24 14:47:50,498	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 14:47:50,498	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 14:48:22,971	[common.py:21]	-------case end
+INFO	2024-09-24 14:48:22,972	[common.py:17]	-------module end
+INFO	2024-09-24 14:56:20,082	[common.py:13]	-------module start
+INFO	2024-09-24 14:56:20,094	[conftest.py:84]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 14:56:20,095	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 14:56:20,096	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 14:56:20,096	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 14:56:22,264	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="775d1b09acd6bc7939edc425b44f2dc6", element="f.1FE2D6786D9166D93DF6B3C952AF5712.d.A5D86F1D7C0AE85A5D9A2EB1C412097F.e.4")>输入文本:peagasus07@163.com
+INFO	2024-09-24 14:56:23,443	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="775d1b09acd6bc7939edc425b44f2dc6", element="f.1FE2D6786D9166D93DF6B3C952AF5712.d.A5D86F1D7C0AE85A5D9A2EB1C412097F.e.6")>输入文本:88483509zr
+INFO	2024-09-24 14:56:28,509	[page_base.py:38]	点击按钮：('css selector', '.el-button:nth-child(3)')
+INFO	2024-09-24 14:56:29,520	[testLogin.py:36]	111111111111Optictimes-navigation
+INFO	2024-09-24 14:56:29,563	[common.py:21]	-------case end
+INFO	2024-09-24 14:56:29,575	[conftest.py:84]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 14:56:29,575	[testLogin.py:29]	username:1010656935@qq.com
+INFO	2024-09-24 14:56:29,575	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 14:56:29,575	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 14:57:03,147	[common.py:21]	-------case end
+INFO	2024-09-24 14:57:03,149	[common.py:17]	-------module end
+INFO	2024-09-24 15:06:12,689	[common.py:13]	-------module start
+INFO	2024-09-24 15:06:12,693	[conftest.py:81]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 15:06:12,694	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 15:06:12,694	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 15:06:12,694	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 15:06:22,239	[common.py:21]	-------case end
+INFO	2024-09-24 15:06:22,241	[common.py:17]	-------module end
+WARNING	2024-09-24 15:06:24,289	[connectionpool.py:824]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000196A3A692B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/66d9a15ad580694475dd817f67438361/window
+WARNING	2024-09-24 15:06:26,335	[connectionpool.py:824]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000196A55FDD90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/66d9a15ad580694475dd817f67438361/window
+WARNING	2024-09-24 15:06:28,389	[connectionpool.py:824]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000196A55FDE80>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/66d9a15ad580694475dd817f67438361/window
+INFO	2024-09-24 15:07:47,616	[common.py:13]	-------module start
+INFO	2024-09-24 15:07:47,620	[conftest.py:81]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 15:07:47,620	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 15:07:47,621	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 15:07:47,621	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 15:07:50,885	[common.py:21]	-------case end
+INFO	2024-09-24 15:07:50,887	[common.py:17]	-------module end
+INFO	2024-09-24 15:08:17,066	[common.py:13]	-------module start
+INFO	2024-09-24 15:08:17,070	[conftest.py:81]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 15:08:17,070	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 15:08:17,071	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 15:08:17,071	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 15:08:20,665	[common.py:21]	-------case end
+INFO	2024-09-24 15:08:20,666	[common.py:17]	-------module end
+INFO	2024-09-24 15:09:38,622	[common.py:13]	-------module start
+INFO	2024-09-24 15:09:38,625	[conftest.py:81]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 15:09:38,625	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 15:09:38,625	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 15:09:38,626	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 15:09:42,717	[common.py:21]	-------case end
+INFO	2024-09-24 15:09:42,728	[common.py:17]	-------module end
+INFO	2024-09-24 15:13:06,434	[common.py:13]	-------module start
+INFO	2024-09-24 15:13:06,438	[conftest.py:81]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 15:13:06,438	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 15:13:06,438	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 15:13:06,438	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 15:13:34,704	[common.py:21]	-------case end
+INFO	2024-09-24 15:13:34,705	[common.py:17]	-------module end
+INFO	2024-09-24 15:22:46,737	[common.py:13]	-------module start
+INFO	2024-09-24 15:22:51,062	[conftest.py:81]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 15:22:51,062	[testLogin.py:29]	username:1010656935@qq.com
+INFO	2024-09-24 15:22:51,063	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 15:22:51,063	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 15:22:54,693	[common.py:21]	-------case end
+INFO	2024-09-24 15:22:54,704	[common.py:17]	-------module end
+INFO	2024-09-24 15:23:25,213	[common.py:13]	-------module start
+INFO	2024-09-24 15:23:29,355	[conftest.py:81]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 15:23:29,356	[testLogin.py:29]	username:1010656935@qq.com
+INFO	2024-09-24 15:23:29,356	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 15:23:29,356	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 15:23:34,497	[common.py:21]	-------case end
+INFO	2024-09-24 15:23:34,507	[common.py:17]	-------module end
+INFO	2024-09-24 15:24:19,905	[common.py:13]	-------module start
+INFO	2024-09-24 15:24:25,567	[conftest.py:81]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 15:24:25,567	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 15:24:25,567	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 15:24:25,567	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 15:24:27,699	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="ecb4834f500890a691fe9ac58d629380", element="f.6615FA3F678A7B3390B75755C462E700.d.2A1C19FC3C825571F01ABA58CCA52C33.e.4")>输入文本:peagasus07@163.com
+INFO	2024-09-24 15:24:28,821	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="ecb4834f500890a691fe9ac58d629380", element="f.6615FA3F678A7B3390B75755C462E700.d.2A1C19FC3C825571F01ABA58CCA52C33.e.6")>输入文本:88483509zr
+INFO	2024-09-24 15:24:33,876	[page_base.py:38]	点击按钮：('css selector', '.el-button:nth-child(3)')
+INFO	2024-09-24 15:24:34,894	[common.py:21]	-------case end
+INFO	2024-09-24 15:24:37,252	[conftest.py:81]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 15:24:37,252	[testLogin.py:29]	username:1010656935@qq.com
+INFO	2024-09-24 15:24:37,252	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 15:24:37,253	[testLogin.py:31]	expect text: Optictimes-navigation
+WARNING	2024-09-24 15:24:41,297	[connectionpool.py:824]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A822A495E0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ecb4834f500890a691fe9ac58d629380/element
+WARNING	2024-09-24 15:24:43,347	[connectionpool.py:824]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A822A4A750>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ecb4834f500890a691fe9ac58d629380/element
+WARNING	2024-09-24 15:24:45,384	[connectionpool.py:824]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A822A781A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ecb4834f500890a691fe9ac58d629380/element
+WARNING	2024-09-24 15:24:49,995	[connectionpool.py:824]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A822A4B1D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ecb4834f500890a691fe9ac58d629380/screenshot
+WARNING	2024-09-24 15:24:52,043	[connectionpool.py:824]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A822442000>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ecb4834f500890a691fe9ac58d629380/screenshot
+WARNING	2024-09-24 15:24:54,076	[connectionpool.py:824]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A822E92180>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ecb4834f500890a691fe9ac58d629380/screenshot
+INFO	2024-09-24 15:24:56,140	[common.py:21]	-------case end
+WARNING	2024-09-24 15:24:58,154	[connectionpool.py:824]	Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A8224D84D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ecb4834f500890a691fe9ac58d629380/window
+WARNING	2024-09-24 15:25:00,208	[connectionpool.py:824]	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A822E92510>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ecb4834f500890a691fe9ac58d629380/window
+WARNING	2024-09-24 15:25:02,262	[connectionpool.py:824]	Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A822E92930>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ecb4834f500890a691fe9ac58d629380/window
+INFO	2024-09-24 15:25:04,316	[common.py:17]	-------module end
+INFO	2024-09-24 15:27:07,428	[common.py:13]	-------module start
+INFO	2024-09-24 15:27:12,600	[conftest.py:80]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 15:27:12,601	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 15:27:12,601	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 15:27:12,602	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 15:27:14,833	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="eef7252863f3dde5c45529321d6fcf44", element="f.01085EF82101147506348139CE972178.d.BD5CAF84B603217CE86E394A96A094F5.e.4")>输入文本:peagasus07@163.com
+INFO	2024-09-24 15:27:16,074	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="eef7252863f3dde5c45529321d6fcf44", element="f.01085EF82101147506348139CE972178.d.BD5CAF84B603217CE86E394A96A094F5.e.6")>输入文本:88483509zr
+INFO	2024-09-24 15:27:21,168	[page_base.py:38]	点击按钮：('css selector', '.el-button:nth-child(3)')
+INFO	2024-09-24 15:27:22,179	[common.py:21]	-------case end
+INFO	2024-09-24 15:27:30,020	[conftest.py:80]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 15:27:30,021	[testLogin.py:29]	username:1010656935@qq.com
+INFO	2024-09-24 15:27:30,021	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 15:27:30,021	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 15:27:32,200	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="adc904fb80790acea8e3f53211ef17f7", element="f.61BCB00AF36AD2FB3170B64EAAC6EA07.d.7DE830EDD54D8564E21D7826B03F4FBB.e.4")>输入文本:1010656935@qq.com
+INFO	2024-09-24 15:27:33,360	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="adc904fb80790acea8e3f53211ef17f7", element="f.61BCB00AF36AD2FB3170B64EAAC6EA07.d.7DE830EDD54D8564E21D7826B03F4FBB.e.6")>输入文本:88483509zr
+INFO	2024-09-24 15:27:38,427	[page_base.py:38]	点击按钮：('css selector', '.el-button:nth-child(3)')
+INFO	2024-09-24 15:27:39,451	[common.py:21]	-------case end
+INFO	2024-09-24 15:27:41,729	[common.py:17]	-------module end
+INFO	2024-09-24 15:28:44,193	[common.py:13]	-------module start
+INFO	2024-09-24 15:28:49,930	[conftest.py:80]	case：testlogin/testLogin.py_TestLogin_test_login[login_case0]
+INFO	2024-09-24 15:28:49,930	[testLogin.py:29]	username:peagasus07@163.com
+INFO	2024-09-24 15:28:49,931	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 15:28:49,931	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 15:28:52,119	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="37cfecfcd5c6f9755e6b1caecbb4a93e", element="f.CB8FCE5F15FDD3C8158EBBFBD584CEE0.d.7CE506ECC332A6B953D4081A7D7CCBF4.e.4")>输入文本:peagasus07@163.com
+INFO	2024-09-24 15:28:53,247	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="37cfecfcd5c6f9755e6b1caecbb4a93e", element="f.CB8FCE5F15FDD3C8158EBBFBD584CEE0.d.7CE506ECC332A6B953D4081A7D7CCBF4.e.6")>输入文本:88483509zr
+INFO	2024-09-24 15:28:58,314	[page_base.py:38]	点击按钮：('css selector', '.el-button:nth-child(3)')
+INFO	2024-09-24 15:28:59,326	[common.py:21]	-------case end
+INFO	2024-09-24 15:29:07,514	[conftest.py:80]	case：testlogin/testLogin.py_TestLogin_test_login[login_case1]
+INFO	2024-09-24 15:29:07,514	[testLogin.py:29]	username:1010656935@qq.com
+INFO	2024-09-24 15:29:07,514	[testLogin.py:30]	password: 88483509zr
+INFO	2024-09-24 15:29:07,514	[testLogin.py:31]	expect text: Optictimes-navigation
+INFO	2024-09-24 15:29:09,677	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="aac125a61c6c21aacb0f5db692497ce6", element="f.04B2B0A2116BDA30754736483455EB91.d.8437C00FB62C47F32AE0D36D258D12B5.e.4")>输入文本:1010656935@qq.com
+INFO	2024-09-24 15:29:10,895	[page_base.py:32]	<selenium.webdriver.remote.webelement.WebElement (session="aac125a61c6c21aacb0f5db692497ce6", element="f.04B2B0A2116BDA30754736483455EB91.d.8437C00FB62C47F32AE0D36D258D12B5.e.6")>输入文本:88483509zr
+INFO	2024-09-24 15:29:15,982	[page_base.py:38]	点击按钮：('css selector', '.el-button:nth-child(3)')
+INFO	2024-09-24 15:29:16,991	[common.py:21]	-------case end
+INFO	2024-09-24 15:29:19,375	[common.py:17]	-------module end

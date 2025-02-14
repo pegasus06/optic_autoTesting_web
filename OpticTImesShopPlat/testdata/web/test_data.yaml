@@ -1,0 +1,21 @@
+login:
+  - case1: 登录成功1
+    username: peagasus07@163.com
+    password: 88483509zr
+    expect: Optictimes-navigation
+  - case2: 登录成功2
+    username: 1010656935@qq.com
+    password: 88483509zr
+    expect: Optictimes-navigation
+
+login2:
+- case1: 登录成功1
+  expect: 失败
+  password: 7001@mcx
+  username: 70001
+- case2: 登录成功2
+  expect: 密码
+  password: null
+  username: 70002
+
+
